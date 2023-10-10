@@ -67,6 +67,15 @@
   }
 }
 
+\newcommand{\resumeEducationSubheading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -121,9 +130,10 @@
 %-----------EDUCATION-----------
 \section{Education}
     \resumeSubHeadingListStart
-        \resumeSubheading
+        \resumeEducationSubheading
         {Carnegie Mellon University}{GPA: 3.45/4.0}
         {B.S. in Information Systems, Minor in Computer Science \& Human Computer Interaction}{Aug. 2020 -- May 2024}
+        {Tartan Scholar, Society of Hispanic Professional Engineers}{}
     \resumeSubHeadingListEnd
 
 
@@ -135,14 +145,18 @@
         {Software Engineering Intern}{May 2023 -- Aug 2023}
             \resumeItemListStart
                 \resumeItem{Gained a deep understanding of YouTube client to server architecture and process flow.}
-                \resumeItem{Located the specific entry points that lead to search inputs throughout client and server code.}
-                \resumeItem{Created analytical access point metrics for all client-side abandoned searches.}
+                \resumeItem{Contributed functional code and tests to both the Android (java) and iOS (Obj-C) client code}
+                \resumeItem{Located the specific client-side entry points that lead to server-side search inputs throught the search proccess.}
+                \resumeItem{Launched analytical access point metrics for all client-side abandoned searches for both mobile platforms.}
+                \resumeItem{Added visual SQL data representations to the team dashboard to asist in task planning and resource allocation.}
             \resumeItemListEnd
         \resumeSubheading
         {Google}{Shopping User Generated Content}
         {STEP Intern}{May 2022 -- Aug 2022}
             \resumeItemListStart
-                \resumeItem{Improved mismatched reviews debugging work with an SQL dashboard displaying visual matching data.}
+                \resumeItem{Used team resources and meetings to quickly onboard onto the Shopping UGC process flow.}
+                \resumeItem{Worked closely with my STEP partner to outline review matching schema and identify mismatching reasons.}
+                \resumeItem{Improved mismatched reviews debugging efforts with an SQL dashboard displaying visual matching data.}
                 \resumeItem{Implemented a C++ pipeline to calculate review churn from over 3 billion Shopping Review data points.}
             \resumeItemListEnd
         \resumeSubheading
@@ -197,8 +211,8 @@
         {Student Academic Success Center}{}
             \resumeItemListStart
                 \resumeItem{Led a weekly small group of first-year Tartan Scholars taking 15-112: Fundamentals of Programming.}
-                \resumeItem{Taught mentees life and academic skills needed to be successful in both the classroom and in college.}
-                \resumeItem{Coached mentees through practice assessments designed to help them internalize content.}
+                \resumeItem{Mentored my students in important skills necessary to be successful in both academic and professional environments.}
+                \resumeItem{Coached students through practice assessments designed to help them internalize the class content.}
             \resumeItemListEnd
 
         \resumeSubheading
@@ -228,7 +242,6 @@
             \textbf{Programming Languages: }{Python, C++, C, Obj-C, Java, SML, SQL, HTML, CSS, Ruby} \\
             \textbf{Applications: }{Git, Vim, VSCode, Xcode, Android Studio} \\
             \textbf{Databases: }{Postgres, MongoDB, MySQL} \\
-            \textbf{OS: }{Ubuntu Linux, MacOS, Windows}
         }}
     \end{itemize}
 
